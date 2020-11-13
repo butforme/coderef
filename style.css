@@ -1,0 +1,62 @@
+body {
+	background-color: #2d2b55;
+	color: #a599e9;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+	cursor: default;
+}
+body {
+	font-family: "Source Code Pro", sans-serif; /* Try to use custom font */
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+h2 {
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+img {
+	width: 40%;
+	border: 0; /* For IE */
+	margin: 2rem;
+}
+hr {
+	color: #a599e9;
+}
+[class*="fa"] {
+	color: #a599e9;
+	font-size: 5rem;
+	padding: 1rem;
+}
+#frontandcenter {
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#socials a {
+	display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	#frontandcenter {
+		width: 75%;
+	}
+	img {
+		width: 60%;
+		margin: 1rem;
+	}
+	[class*="fa"] {
+		font-size: 3rem;
+		padding: 0.5rem;
+	}
+	h2 {
+		font-weight: 300;
+		margin-bottom: 15px;
+	}
+}
