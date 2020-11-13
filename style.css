@@ -40,7 +40,17 @@ hr {
 	transform: translate(-50%, -50%);
 }
 #socials a {
+	color: #a599e9;
 	display: inline-block;
+}
+i:hover {
+	color: #fff8ff;
+}
+h1:hover {
+	color: #fff8ff;
+}
+h2:hover {
+	color: #fff8ff;
 }
 @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
